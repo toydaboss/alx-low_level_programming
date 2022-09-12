@@ -3,7 +3,7 @@
 /**
   *main - prints alphabet in reverse
   *
-  *Return - returns 0 for success
+  *Return: returns 0 for success
   */
 
 int main(void)
