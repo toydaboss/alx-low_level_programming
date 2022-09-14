@@ -2,8 +2,8 @@
 
 /**
   *_islower - checks if lowercase
-  *
-  *Returns: 0 for success
+  *@c: the input character
+  *Return: 0 for uppercase, 1 for lowercase
   */
 
 int _islower(int c)
@@ -13,7 +13,7 @@ int _islower(int c)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if(i == c)
+		if( i == c )
 			lower = 1;
 	}
 	return (lower);
