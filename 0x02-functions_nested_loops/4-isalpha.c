@@ -2,7 +2,7 @@
 
 /**
   *_isalpha - checks alphabet
-  *
+  *@c: input char
   *Return: returns 0 for success
   */
 
