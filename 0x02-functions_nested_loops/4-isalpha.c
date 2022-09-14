@@ -14,12 +14,12 @@ int _isalpha(int c)
 	for (r = 'a'; r <= 'z'; r++)
 	{
 		if (r == c)
-			lower = 1;
+			alpha = 1;
 	}
 	for (t = 'A'; t <= 'Z'; t++)
 	{
 		if (t == c)
-			lower = 1;
+			alpha = 1;
 	}
 	return (lower);
 }
