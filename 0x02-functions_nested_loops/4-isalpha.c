@@ -21,5 +21,5 @@ int _isalpha(int c)
 		if (t == c)
 			alpha = 1;
 	}
-	return (lower);
+	return (alpha);
 }
