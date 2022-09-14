@@ -2,7 +2,7 @@
 
 /**
   *_abs - returns absolute value;
-  *@x: input value
+  *@i: input value
   *Return: returns 0
   */
 
