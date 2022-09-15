@@ -9,10 +9,8 @@ int main(void)
 {
 	int i;
 
-	i = 10;
-	
+	i = 10;	
 	positive_or_negative(i);
 
 	return (0);
-
 }
