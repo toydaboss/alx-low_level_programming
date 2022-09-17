@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
-  *more_number - prints numbers
+  *more_numbers - prints numbers
   *
   *Return: it is void
   */
 
 void more_numbers(void)
 {
-	int i,j;
+	int i, j;
 
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 14; j++)
-			_putchar(i);
+		{
+			if (j > 9)
+				_putchar(i / 10 + '0');
+			_putchar(i % 10 + '0');
+		}
 		_putchar('\n');
 	}
 }
