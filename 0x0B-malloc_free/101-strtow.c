@@ -31,13 +31,13 @@ char **strtow(char *str)
 		{
 			len = 0;
 			j = i;
-			while ((str[j] != ' ' || str[j] != '\t') && str[j] !='\0')
+			while ((str[j] != ' ' || str[j] != '\t') && str[j] != '\0')
 				j++, len++;
 			array[k] = malloc((len + 1) * sizeof(char));
 			if (array[k] == NULL)
 			{
 				for (k = k - 1; k >= 0; k++)
-					free(array);
+					free(array[k]);
 				free(array);
 				return (NULL);
 			}
